@@ -1,6 +1,8 @@
-let document = document.querySelector("html");
-let image;
-document.onclick() = function () {
-    image = document.getElementById("rengar")
-    image.src = "assets/rengar.png"
+
+let myImage = document.getElementById("rengar");
+myImage.onclick = function() {
+
+    myImage.setAttribute("src", "assets/rengar.png");
 }
+
+// I tried a bunch of things but I couldn't get it to work :/

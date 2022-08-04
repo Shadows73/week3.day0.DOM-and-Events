@@ -1,8 +1,8 @@
-
+let body = document.querySelector("body");
+console.log(body);
 let myImage = document.getElementById("rengar");
-myImage.onclick = function() {
-
-    myImage.setAttribute("src", "assets/rengar.png");
+body.onclick = function() {
+    myImage.src = "assets/rengar.png";
+    alert("You've been deleted")
 }
 
-// I tried a bunch of things but I couldn't get it to work :/
